@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página Web</title>
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenidos a Mi Página Web</h1>
+            <p>Esta es una página de ejemplo para el ejercicio</p>
+        </header>
+        <main>
+            <h2>Acerca de nosotros</h2>
+            <p>Somos una empresa dedicada a ofrecer soluciones web</p>
+        </main>
+        <section>
+            <h2>Nuestros servicios</h2>
+            <ol type="a">
+                <li>Diseño web</li>
+                <li>Desarrollo de aplicaciones</li>
+                <li>Marketing digital</li>
+            </ol>
+            <a  href=" https://www.ejemplo.com">Ver mas servicios</a>
+        </section>
+        <footer>
+            <a href="mailto:info@miempresa.com">Enviar correo electrónico</a>
+            <br>
+            <a href="tel:+1234567890">LLamar por teléfono</a>
+            <p>&copy; Mi empresa, Todos los derechos reservados</p>
+        </footer>
+    </body>
+        
