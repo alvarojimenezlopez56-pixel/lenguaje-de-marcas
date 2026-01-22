@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 220, 226);
+}
+
+.caja-fija {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    background-color: rgb(184, 0, 184);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.caja-sticky {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 251, 0);
+    padding: 10px;
+}
+
+.contenedor-relativo {
+    position: relative;
+    border-style: dashed;
+    border-color: rgb(255, 167, 181);
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+    justify-self: center;
+    padding-bottom: 150px;
+    width: 900px;
+    height: 200px;
+
+}
+
+.caja-absoluta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 118, 141);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+header {
+    color: white;
+    background-color: rgb(255, 58, 91);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+
+.scroll-demo {
+    overflow-y: scroll;
+    height: 200px;
+    background-color: white;
+    justify-self: center;
+    width: 500px;
+    padding: 10px;
+
+}
