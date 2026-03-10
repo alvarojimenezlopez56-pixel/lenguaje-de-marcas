@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* Estilos base para Ordenador (Desktop) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #333;
+  color: #fff;
+}
+.navbar .logo {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.navbar .nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+  padding: 0;
+}
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.navbar .nav-links a:hover {
+  color: #c1c1c1;
+}
+
+.hero {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://via.placeholder.com/1920x1080");
+  background-size: cover;
+  color: white;
+}
+.hero .cta-btn {
+  padding: 10px 30px;
+  background-color: #c1c1c1;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Ocultar hamburguesa en escritorio */
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Solo si quieres que algo cambie en móvil, usa esto: */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
