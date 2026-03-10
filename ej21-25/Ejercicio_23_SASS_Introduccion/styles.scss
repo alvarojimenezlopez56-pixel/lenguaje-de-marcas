@@ -1,0 +1,56 @@
+/* Ejercicio 23: SASS Introducción
+*/
+
+// 1. Define Variables 
+$color-principal: #3498db;
+$color-fondo: #f4f4f4;
+$fuente-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$espaciado: 20px;
+
+// Estilos globales
+body {
+  font-family: $fuente-base;
+  background-color: $color-fondo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+// 2. Usa Nesting para dar estilo a la .container, h1, p y .btn 
+.container {
+  background: white;
+  padding: $espaciado * 2; // SASS permite operaciones matemáticas sencillas 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  h1 {
+    // Esto equivale a .container h1 
+    color: $color-principal;
+    margin-bottom: 10px;
+  }
+
+  p {
+    // Esto equivale a .container p
+    color: #666;
+    margin-bottom: $espaciado;
+  }
+
+  .btn {
+    // Esto equivale a .container .btn
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: $color-principal;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      // El símbolo & hace referencia al padre (.btn) 
+      background-color: darken($color-principal, 15%); // Función nativa de SASS 
+    }
+  }
+}

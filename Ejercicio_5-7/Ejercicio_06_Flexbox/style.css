@@ -1,0 +1,25 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(28, 32, 41);
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(57, 57, 78);
+}
+
+.alineacion-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}

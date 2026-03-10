@@ -1,0 +1,36 @@
+.caja {
+    width: 300px;
+    padding: 20px;
+    border: 10px;
+    margin: auto;
+}
+
+.caja-content {
+    box-sizing: content-box;
+    background-color: lightsalmon;
+    border: 5px solid orange;
+    margin-bottom: 10px;
+}
+
+.caja-border {
+    box-sizing: border-box;
+    background-color: lightgreen;
+    border: 5px solid green;
+
+}
+
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.explicacion {
+    margin: 10px;
+    border-radius: 10px;
+    border: 10px solid white;
+    padding: 10px;
+    background-color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+}

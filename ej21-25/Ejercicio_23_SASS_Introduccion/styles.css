@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Ejercicio 23: SASS Introducción
+*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.container h1 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+.container p {
+  color: #666;
+  margin-bottom: 20px;
+}
+.container .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.container .btn:hover {
+  background-color: rgb(29.2970711297, 110.6778242678, 165.2029288703);
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,32 @@
+// Define estilos para las tabs aquí
+// Usa Nesting y estados (&.active)
+// Estilos para los botones
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+
+
+    &:hover {
+        background-color: #e0e0e0;
+        cursor: pointer;
+    }
+
+    &.active {
+        background-color: #007bff;
+        color: white;
+    }
+}
+
+// 2. Estilo por defecto de los paneles 
+.tab-pane {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+    // 3. Estilo cuando el panel está activo (visible)
+    &.active {
+        display: block;
+    }
+}
