@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+#titulo-principal {
+    color: #0056b3;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.subtitulo {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contenido {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destacado {
+    color: red;
+}
+
+.nota {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
