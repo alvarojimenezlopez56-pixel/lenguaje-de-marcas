@@ -1,6 +1,10 @@
 /* Escribe tu SASS aquí */
-$primary-color: #007bff;
-$primary-hover: #0056b3;
-$bg-light: #f8f9fa;
-$text-main: #212529;
-$white: #ffffff;
+h1 {
+    color: red($color: #ff0000);
+    text-align: center;
+}
+
+p {
+    color: blue($color: #0000ff);
+    text-align: center;
+}
